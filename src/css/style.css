@@ -1,0 +1,23 @@
+/* Default layout for larger screens */
+.book-card {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px;
+}
+
+.book-card img{
+  width: 50%;
+}
+
+/* Media query for medium-sized screens */
+@media (max-width: 768px) {
+  .book-card {
+    width: calc(50% - 20px); /* Adjust the width as needed */
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 576px) {
+  .book-card {
+    width: 100%; /* Full width for smaller screens */
+  }
+}

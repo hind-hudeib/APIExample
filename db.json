@@ -1,0 +1,100 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publicationYear": 1960,
+      "genre": "Fiction",
+      "coverImage": "https://i.pinimg.com/564x/2a/04/ae/2a04ae4983816379ebb63440e9e55744.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "publicationYear": 1949,
+      "genre": "Science Fiction",
+      "coverImage": "https://i.pinimg.com/564x/76/7f/f5/767ff5350ed7283e8457ced2c1094b56.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publicationYear": 1925,
+      "genre": "Fiction",
+      "coverImage": "https://i.pinimg.com/564x/6a/68/75/6a6875d7e042c78fa337d50506601ef7.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publicationYear": 1813,
+      "genre": "Romance",
+      "coverImage": "https://i.pinimg.com/564x/54/db/25/54db2573d0cfd1259d5301451ac7d722.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "publicationYear": 1937,
+      "genre": "Fantasy",
+      "coverImage": "https://i.pinimg.com/564x/ce/fc/3e/cefc3e4b2aa04fcd1f25363a6469e791.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publicationYear": 1951,
+      "genre": "Fiction",
+      "coverImage": "https://i.pinimg.com/564x/a6/76/61/a6766133579c4dab84057f0f5257529d.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "publicationYear": 1997,
+      "genre": "Fantasy",
+      "coverImage": "https://i.pinimg.com/564x/0e/47/2a/0e472a2fd4a1dd7043bd8cadefe5e030.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Lord of the Flies",
+      "author": "William Golding",
+      "publicationYear": 1954,
+      "genre": "Adventure",
+      "coverImage": "https://i.pinimg.com/564x/74/4c/5b/744c5b14bdef14a5efa5502ac8a0c91f.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "publicationYear": 1932,
+      "genre": "Science Fiction",
+      "coverImage": "https://i.pinimg.com/564x/f1/c1/a2/f1c1a2d438a53edf348015b9507837c7.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "publicationYear": 1988,
+      "genre": "Adventure",
+      "coverImage": "https://i.pinimg.com/564x/0e/37/13/0e371308288f069ec1141c406de51d8d.jpg"
+    },
+    {
+      "id": 11,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publicationYear": 1925,
+      "genre": "Fiction",
+      "coverImage": "https://i.pinimg.com/564x/c4/15/74/c41574eebd919759ab56c50c00e0e3ba.jpg"
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "publicationYear": 1949,
+      "genre": "Science Fiction",
+      "coverImage": "https://i.pinimg.com/564x/a5/34/d4/a534d4ef71935f120b2becd2312080c2.jpg"
+    }
+  ]
+}
