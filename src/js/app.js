@@ -20,7 +20,7 @@ function renderBooks(books) {
 }
 
 
-fetch("https://hind-hudeib.github.io/APIExample/books")
+fetch("http://hind-hudeib.github.io/APIExample/books")
 
   .then((response) => response.json())
   .then((data) => {
@@ -58,7 +58,7 @@ const commentsList = document.querySelector(".comments-list");
 
 // Function to fetch and display comments
 function fetchComments() {
-  fetch("https://hind-hudeib.github.io/APIExample/comments")
+  fetch("http://hind-hudeib.github.io/APIExample/comments")
     .then((response) => response.json())
     .then((comments) => {
       commentsList.innerHTML = "";
@@ -86,7 +86,7 @@ function fetchComments() {
 // Add a new comment
 addCommentButton.addEventListener("click", () => {
 
-  fetch("https://hind-hudeib.github.io/APIExample/comments", {
+  fetch("http://hind-hudeib.github.io/APIExample/comments", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -103,7 +103,7 @@ addCommentButton.addEventListener("click", () => {
 // Delete a comment
 function deleteComment(button) {
   const commentId = button.getAttribute("id");
-  fetch(`https://hind-hudeib.github.io/APIExample/comments/${commentId}`, {
+  fetch(`http://hind-hudeib.github.io/APIExample/comments/${commentId}`, {
     method: "DELETE",
   })
     .then(() => {
@@ -118,7 +118,7 @@ function updateComment(button) {
   const newComment = prompt("Update the comment:", "");
 
   if (newComment !== null) {
-    fetch(`https://hind-hudeib.github.io/APIExample/comments/${commentId}`, {
+    fetch(`http://hind-hudeib.github.io/APIExample/comments/${commentId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
